@@ -1,0 +1,11 @@
+function rgbColors() {
+for(var i=0; i<10; i++ ){
+    for(var j=0; j<10; j++ ){
+    var r = Math.floor(Math.random() * 256);
+    var g = Math.floor(Math.random() * 256);
+    var b = Math.floor(Math.random() * 256);
+    }
+    document.write("rgb(" + r + "," + g + "," + b + ")" + "<br>");
+}
+}
+rgbColors();
