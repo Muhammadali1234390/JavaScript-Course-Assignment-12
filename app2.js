@@ -7,8 +7,8 @@ for (let i = 0; i < 5; i++) {
         hexColor += hexChars[Math.floor(Math.random() * 16)];
     }
 
-    document.writeln(hexColor);
+    console.log(hexColor);
 }
 }
-hexColors();
+
 
