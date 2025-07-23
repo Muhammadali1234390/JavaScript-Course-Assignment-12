@@ -4,7 +4,7 @@ let password = ""
 for (let i = 0; i < 10; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
 }
-document.write(password)
+console.log(password)
 }
 
 
