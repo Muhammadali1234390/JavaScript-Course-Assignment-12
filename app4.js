@@ -8,6 +8,6 @@ for(let i = 1; i <= 100; i++) {
     }
 }
 
-document.writeln("Sum of multiples of 5 between 1 and 100 is: " + sum);
+console.log("Sum of multiples of 5 between 1 and 100 is: " + sum);
 }
-sum()
+
