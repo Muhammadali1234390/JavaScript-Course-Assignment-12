@@ -5,7 +5,7 @@ for(var i=0; i<10; i++ ){
     var g = Math.floor(Math.random() * 256);
     var b = Math.floor(Math.random() * 256);
     }
-    document.write("rgb(" + r + "," + g + "," + b + ")" + "<br>");
+    console.log("rgb(" + r + "," + g + "," + b + ")" + "<br>");
 }
 }
-rgbColors();
+
